@@ -285,6 +285,10 @@ outline-color: var(--text-color);
   .testimony-section{
     flex-direction: column;
   }
+   /* SECTION-4=CONTACT */
+  .contact-section .group {
+    flex-direction: column;
+  }
   }
 
 @media (max-width: 650px) {
@@ -322,4 +326,14 @@ outline-color: var(--text-color);
   .skills-section .cells .cell span{
     font-size: 16px;
   }
+
+  /* SECTION-3=TESTIMONY */
+  .testimony-section{
+    padding:0 20px;
+  }
+
+  /*SECTION-4=CONTACT  */
+.contact-section{
+padding: 0 20px;
+}
 }
